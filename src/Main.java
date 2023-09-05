@@ -9,14 +9,9 @@ public class Main {
         return i;
     }
     public static void main(String[] args) {
-
         Scanner vvod = new Scanner(System.in);
         String s = vvod.nextLine();
         String[] f = s.split(" ");
         System.out.println(plus(f));
-
-
-        System.out.println("test321");
-        System.out.println("test");
     }
 }
